@@ -1,7 +1,9 @@
 <template>
   <header class="flex h-16 w-full justify-center">
     <div class="flex w-11/12 max-w-5xl flex-row items-center justify-between">
-      <h1 class="font-serif text-3xl text-[#e4cb86]">Affaled</h1>
+      <h1 class="font-serif text-3xl text-[#e4cb86]">
+        <router-link to="/">Affaled</router-link>
+      </h1>
       <nav class="text-sm font-semibold">
         <ul class="flex flex-row gap-8">
           <li class="hover:text-[#e4cb86]">
@@ -17,13 +19,13 @@
       </nav>
       <div class="flex flex-row gap-4 text-3xl">
         <a href="https://github.com/affaled" target="_blank">
-          <i class="fab fa-github"></i>
+          <i class="fab fa-github hover:text-[#e4cb86]"></i>
         </a>
         <a href="https://instagram.com/affaled.dev" target="_blank">
-          <i class="fab fa-instagram"></i>
+          <i class="fab fa-instagram hover:text-[#e4cb86]"></i>
         </a>
         <a href="https://linkedin.com/in/lucas-affaled" target="_blank">
-          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-linkedin hover:text-[#e4cb86]"></i>
         </a>
       </div>
     </div>
