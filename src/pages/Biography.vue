@@ -4,10 +4,20 @@
   >
     <h2 class="text-center font-serif text-7xl capitalize">Biography</h2>
     <div>
-      <h3 class="text-start font-serif text-3xl">Front-end developer</h3>
+      <h3 class="text-start font-serif text-3xl capitalize">
+        Front-end developer
+      </h3>
       <p class="text-start">{{ BiographyData.professionalInfo[0] }}</p>
       <p class="text-start">{{ BiographyData.professionalInfo[1] }}</p>
       <p class="text-start">{{ BiographyData.professionalInfo[2] }}</p>
+    </div>
+    <div>
+      <h3 class="text-start font-serif text-3xl capitalize">
+        Getting to know me
+      </h3>
+      <p class="text-start">{{ BiographyData.personalInfo[0] }}</p>
+      <p class="text-start">{{ BiographyData.personalInfo[1] }}</p>
+      <p class="text-start">{{ BiographyData.personalInfo[2] }}</p>
     </div>
   </section>
 </template>
