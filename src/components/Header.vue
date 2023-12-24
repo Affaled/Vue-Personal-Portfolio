@@ -6,13 +6,13 @@
       </h1>
       <nav class="text-sm font-semibold">
         <ul class="flex flex-row gap-8">
-          <li class="hover:text-[#e4cb86]">
+          <li class="uppercase hover:text-[#e4cb86]">
             <router-link to="/">Home</router-link>
           </li>
-          <li class="hover:text-[#e4cb86]">
+          <li class="uppercase hover:text-[#e4cb86]">
             <router-link to="/biography">Biography</router-link>
           </li>
-          <li class="hover:text-[#e4cb86]">
+          <li class="uppercase hover:text-[#e4cb86]">
             <router-link to="/projects">Projects</router-link>
           </li>
         </ul>
