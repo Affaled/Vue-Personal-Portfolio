@@ -1,6 +1,8 @@
 <template>
   <Header />
-  <router-view />
+  <main>
+    <router-view />
+  </main>
 </template>
 <script>
 import { defineComponent } from "vue";
