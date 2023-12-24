@@ -1,6 +1,6 @@
 <template>
   <section
-    class="pt-18 flex min-h-screen w-full flex-col items-center justify-end gap-4 pb-12"
+    class="flex min-h-screen w-full flex-col items-center justify-end gap-4 pb-12 pt-20"
   >
     <h2 class="font-serif text-7xl capitalize">Front-end developer</h2>
     <p
