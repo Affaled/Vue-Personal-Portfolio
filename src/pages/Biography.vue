@@ -17,13 +17,15 @@
         <p class="text-start">{{ BiographyData.professionalInfo[1] }}</p>
       </div>
     </div>
-    <div class="w-1/4 space-y-4">
-      <h3 class="text-start font-serif text-4xl capitalize">
-        Getting to know me
-      </h3>
-      <p class="text-start">{{ BiographyData.personalInfo[0] }}</p>
-      <p class="text-start">{{ BiographyData.personalInfo[1] }}</p>
-      <p class="text-start">{{ BiographyData.personalInfo[2] }}</p>
+    <div class="flex w-11/12 max-w-5xl flex-col items-center justify-between">
+      <div class="w-1/2 space-y-4">
+        <h3 class="text-start font-serif text-4xl capitalize">
+          Getting to know me
+        </h3>
+        <p class="text-start">{{ BiographyData.personalInfo[0] }}</p>
+        <p class="text-start">{{ BiographyData.personalInfo[1] }}</p>
+        <p class="text-start">{{ BiographyData.personalInfo[2] }}</p>
+      </div>
     </div>
   </section>
 </template>
