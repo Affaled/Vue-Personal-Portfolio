@@ -1,5 +1,5 @@
 <template>
-  <header class="flex h-16 w-full justify-center">
+  <header class="absolute flex h-16 w-full justify-center">
     <div class="flex w-11/12 max-w-5xl flex-row items-center justify-between">
       <h1 class="font-serif text-3xl text-[#e4cb86]">
         <router-link to="/">Affaled</router-link>
