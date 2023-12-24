@@ -1,4 +1,4 @@
-const AboutData = {
+const BiographyData = {
   professionalInfo: [
     "My involvement with programming began in 2017 when I took my first steps into the world of coding with Python 3. Although, at that time, I only completed a small portion of a course and soon abandoned it, my passion for software development was reignited in 2022.",
     "It was in that year that I decided to fully immerse myself in the programming universe by creating games using the Game Maker Studio platform. Subsequently, in 2023, I expanded my knowledge to web development, dedicating myself to studying HTML and CSS for website creation.",
@@ -10,3 +10,5 @@ const AboutData = {
     "Music is a constant soundtrack in my life, accompanying me in all activities. Whether in my mornings and afternoons, dedicated to work and studies, or in the evenings and late nights, moments for leisure where I usually unwind.",
   ],
 };
+
+export default BiographyData;
