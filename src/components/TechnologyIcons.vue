@@ -20,7 +20,7 @@ export default defineComponent({
   },
   methods: {
     getItemSrc(iconName) {
-      return `@/assets/svg/technology/${iconName}.svg`;
+      return `/svg/${iconName}.svg`;
     },
   },
 });
