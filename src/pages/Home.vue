@@ -20,21 +20,23 @@
       >
         Biography & Technology
       </p>
-      <div>
-        <TechnologyIcons
-          :iconNames="[
-            'git',
-            'html',
-            'css',
-            'scss',
-            'tailwind',
-            'javascript',
-            'angular',
-            'vue',
-            'reactjs',
-            'php',
-          ]"
-        />
+      <div class="flex w-full flex-row justify-between">
+        <div class="flex w-1/4 flex-row flex-wrap justify-center">
+          <TechnologyIcons
+            :iconNames="[
+              'git',
+              'html',
+              'css',
+              'scss',
+              'tailwind',
+              'javascript',
+              'angular',
+              'vue',
+              'reactjs',
+              'php',
+            ]"
+          />
+        </div>
       </div>
     </div>
   </section>

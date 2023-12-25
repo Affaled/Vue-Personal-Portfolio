@@ -3,7 +3,7 @@
     v-for="(iconName, index) in iconNames"
     :key="index"
     :src="getItemSrc(iconName)"
-    class="h-10 w-10"
+    class="h-16 w-16"
     :alt="iconName + ' icon'"
   />
 </template>
