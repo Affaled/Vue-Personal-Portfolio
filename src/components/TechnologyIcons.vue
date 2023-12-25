@@ -1,13 +1,11 @@
 <template>
-  <div class="flex flex-row gap-2">
-    <img
-      v-for="(iconName, index) in iconNames"
-      :key="index"
-      :src="getItemSrc(iconName)"
-      class="h-10 w-10"
-      :alt="iconName + ' icon'"
-    />
-  </div>
+  <img
+    v-for="(iconName, index) in iconNames"
+    :key="index"
+    :src="getItemSrc(iconName)"
+    class="h-10 w-10"
+    :alt="iconName + ' icon'"
+  />
 </template>
 <script>
 import { defineComponent } from "vue";
