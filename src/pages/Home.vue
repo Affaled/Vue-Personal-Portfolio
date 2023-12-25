@@ -11,8 +11,38 @@
       Scroll down
     </p>
   </section>
+  <section
+    class="flex w-full flex-col items-center justify-end gap-4 pb-12 pt-20"
+  >
+    <div class="flex w-11/12 max-w-5xl flex-col gap-4">
+      <p
+        class="w-full text-start font-sans text-lg font-semibold capitalize text-[#e4cb86]"
+      >
+        Biography & Technology
+      </p>
+      <div>
+        <TechnologyIcons
+          :iconNames="[
+            'git',
+            'html',
+            'css',
+            'scss',
+            'tailwind',
+            'javascript',
+            'angular',
+            'vue',
+            'reactjs',
+            'php',
+          ]"
+        />
+      </div>
+    </div>
+  </section>
 </template>
 <script>
 import { defineComponent } from "vue";
-export default defineComponent({});
+import TechnologyIcons from "../components/TechnologyIcons.vue";
+export default defineComponent({
+  components: { TechnologyIcons },
+});
 </script>
