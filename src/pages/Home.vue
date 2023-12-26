@@ -6,11 +6,7 @@ p
     <h2 class="text-center font-serif text-7xl capitalize">
       Front-end developer
     </h2>
-    <p
-      class="cursor-pointer text-sm font-semibold uppercase hover:text-[#e4cb86]"
-    >
-      Scroll down
-    </p>
+    <p class="text-sm font-semibold uppercase">Scroll down</p>
   </section>
   <section
     class="flex w-full flex-col items-center justify-end gap-4 py-20"
