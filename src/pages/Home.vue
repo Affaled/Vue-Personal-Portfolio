@@ -1,9 +1,11 @@
 p
 <template>
   <section
-    class="flex min-h-screen w-full flex-col items-center justify-end gap-4 pb-12 pt-20"
+    class="flex min-h-screen w-full flex-col items-center justify-end gap-4 pb-12 pt-20 max-sm:h-[660px] max-sm:min-h-0"
   >
-    <h2 class="text-center font-serif text-7xl capitalize">
+    <h2
+      class="text-nowrap text-center font-serif text-6xl capitalize max-md:text-5xl max-sm:text-wrap max-sm:text-6xl"
+    >
       Front-end developer
     </h2>
     <p class="text-sm font-semibold uppercase">Scroll down</p>
@@ -18,8 +20,10 @@ p
       >
         Biography & Technology
       </p>
-      <div class="flex w-full flex-row justify-between">
-        <div class="flex w-1/4 flex-row flex-wrap justify-center">
+      <div
+        class="flex w-full flex-row justify-between max-sm:flex-col max-sm:gap-8"
+      >
+        <div class="flex w-1/4 flex-row flex-wrap justify-center max-sm:w-full">
           <TechnologyIcons
             :iconNames="[
               'git',
@@ -35,7 +39,7 @@ p
             ]"
           />
         </div>
-        <div class="flex w-1/2 flex-col gap-4">
+        <div class="flex w-[430px] flex-col gap-4 max-sm:w-11/12">
           <p>
             {{ BiographyData.personalInfo[0] }}
           </p>
