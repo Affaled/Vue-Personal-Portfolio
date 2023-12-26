@@ -10,22 +10,28 @@
             <router-link
               to="/"
               class="uppercase transition duration-150 hover:text-[#e4cb86]"
-              >Home</router-link
+              :class="{ 'text-[#e4cb86]': $route.path === '/' }"
             >
+              Home
+            </router-link>
           </li>
           <li>
             <router-link
               to="/biography"
               class="uppercase transition duration-150 hover:text-[#e4cb86]"
-              >Biography</router-link
+              :class="{ 'text-[#e4cb86]': $route.path === '/biography' }"
             >
+              Biography
+            </router-link>
           </li>
           <li>
             <router-link
               to="/projects"
               class="uppercase transition duration-150 hover:text-[#e4cb86]"
-              >Projects</router-link
+              :class="{ 'text-[#e4cb86]': $route.path === '/projects' }"
             >
+              Projects
+            </router-link>
           </li>
         </ul>
       </nav>
@@ -52,5 +58,12 @@
 
 <script>
 import { defineComponent } from "vue";
-export default defineComponent({});
+
+export default defineComponent({
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+  },
+});
 </script>
