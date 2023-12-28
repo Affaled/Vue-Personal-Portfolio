@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "i18next": "^23.7.12",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
   },
