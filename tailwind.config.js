@@ -4,7 +4,7 @@ export default {
   theme: {
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],
-      serif: ["Cinzel", "serif"],
+      serif: ["Cinzel Decorative", "serif"],
     },
     extend: {},
   },
