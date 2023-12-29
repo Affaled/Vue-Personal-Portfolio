@@ -10,7 +10,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <header class="flex h-28 w-full items-center justify-center">
+  <header class="absolute flex h-28 w-full items-center justify-center">
     <div class="flex h-full w-10/12 items-center justify-between">
       <div class="flex flex-col items-center font-serif text-3xl">
         <router-link to="/" class="text-center uppercase hover:text-[#e4cb86]">
