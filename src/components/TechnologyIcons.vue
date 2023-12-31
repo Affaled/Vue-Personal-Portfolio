@@ -1,12 +1,3 @@
-<template>
-  <img
-    v-for="(iconName, index) in iconNames"
-    :key="index"
-    :src="getItemSrc(iconName)"
-    class="h-16 w-16 max-sm:h-12 max-sm:w-12"
-    :alt="iconName + ' icon'"
-  />
-</template>
 <script>
 import { defineComponent } from "vue";
 export default defineComponent({
@@ -23,3 +14,13 @@ export default defineComponent({
   },
 });
 </script>
+
+<template>
+  <img
+    v-for="(iconName, index) in iconNames"
+    :key="index"
+    :src="getItemSrc(iconName)"
+    class="h-16 w-16 max-sm:h-12 max-sm:w-12"
+    :alt="iconName + ' icon'"
+  />
+</template>
