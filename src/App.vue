@@ -12,7 +12,7 @@ export default defineComponent({
   <div class="flex h-screen w-full pb-20">
     <ContactAside />
     <main
-      class="flex h-screen w-screen justify-center pb-20 pt-28 text-lg font-light"
+      class="flex h-screen w-screen justify-center pb-20 pt-28 text-xl font-light"
     >
       <router-view />
     </main>
