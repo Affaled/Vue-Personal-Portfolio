@@ -9,12 +9,22 @@ export default defineComponent({
 
 <template>
   <Header />
-  <div class="flex h-screen w-full pb-20">
+  <main class="flex h-screen w-screen">
     <ContactAside />
-    <main
-      class="flex h-screen w-screen justify-center pb-20 pt-28 text-xl font-light"
-    >
+    <transition name="slide-fade" mode="out-in">
       <router-view />
-    </main>
-  </div>
+    </transition>
+  </main>
 </template>
+
+<style scoped>
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: all 0.3s ease-out;
+}
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+}
+</style>

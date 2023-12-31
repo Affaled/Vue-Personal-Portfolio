@@ -5,10 +5,5 @@
 @tailwind utilities;
 
 ::-webkit-scrollbar {
-  background-color: inherit;
-  width: 6px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #e2e8f0;
-  border-radius: 4px;
+  display: none;
 }

@@ -10,16 +10,18 @@ export default defineComponent({
 </script>
 
 <template>
-  <header class="absolute z-50 flex h-28 w-full items-center justify-center">
+  <header
+    class="absolute z-50 flex h-28 w-full items-center justify-center pt-12"
+  >
     <div class="flex h-full w-10/12 items-center justify-between">
-      <div class="flex flex-col items-center font-serif text-3xl">
+      <div class="flex flex-col items-center font-serif text-4xl">
         <router-link to="/" class="text-center uppercase hover:text-[#e4cb86]">
           Affaled
         </router-link>
       </div>
-      <div class="flex items-center gap-8 text-lg font-light">
+      <div class="flex items-center gap-6 font-light">
         <nav>
-          <ul class="flex gap-8">
+          <ul class="flex gap-6">
             <li class="uppercase">
               <router-link to="/" class="hover:text-[#e4cb86]"
                 >Home</router-link
