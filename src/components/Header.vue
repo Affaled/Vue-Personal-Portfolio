@@ -15,7 +15,7 @@ export default defineComponent({
   >
     <div class="flex h-full w-10/12 items-center justify-between">
       <div class="flex flex-col items-center font-serif text-4xl">
-        <router-link to="/" class="text-center uppercase hover:text-[#e4cb86]">
+        <router-link to="/" class="text-center uppercase hover:text-[#d60620]">
           Affaled
         </router-link>
       </div>
@@ -23,24 +23,24 @@ export default defineComponent({
         <nav>
           <ul class="flex gap-6">
             <li class="uppercase">
-              <router-link to="/" class="hover:text-[#e4cb86]"
+              <router-link to="/" class="hover:text-[#d60620]"
                 >Home</router-link
               >
             </li>
             <li class="uppercase">
-              <router-link to="/projects" class="hover:text-[#e4cb86]"
+              <router-link to="/projects" class="hover:text-[#d60620]"
                 >Projects</router-link
               >
             </li>
             <li class="uppercase">
-              <router-link to="/biography" class="hover:text-[#e4cb86]"
+              <router-link to="/biography" class="hover:text-[#d60620]"
                 >Biography</router-link
               >
             </li>
           </ul>
         </nav>
         <p
-          class="flex cursor-pointer items-center gap-1 uppercase hover:text-[#e4cb86]"
+          class="flex cursor-pointer items-center gap-1 uppercase hover:text-[#d60620]"
         >
           En <i class="fas fa-angle-down"></i>
         </p>

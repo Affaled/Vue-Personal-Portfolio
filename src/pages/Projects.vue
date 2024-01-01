@@ -31,12 +31,12 @@ export default defineComponent({
           </p>
           <div class="mt-4 flex gap-16">
             <button
-              class="hover: b rounded-xl bg-[#e4cb86] p-2 font-normal text-neutral-950 transition duration-150 hover:scale-110"
+              class="hover: b rounded-xl bg-[#d60620] p-2 font-normal text-neutral-950 transition duration-150 hover:scale-110"
             >
               Run Project
             </button>
             <button
-              class="rounded-xl bg-[#e4cb86] p-2 font-normal text-neutral-950 transition duration-150 hover:scale-110"
+              class="rounded-xl bg-[#d60620] p-2 font-normal text-neutral-950 transition duration-150 hover:scale-110"
             >
               View Project
             </button>

@@ -10,21 +10,21 @@ export default defineComponent({});
     <a
       href="https://github.com/affaled"
       target="_blank"
-      class="cursor-pointer hover:text-[#e4cb86]"
+      class="cursor-pointer hover:text-[#d60620]"
     >
       <i class="fa fa-github"></i>
     </a>
     <a
       href="https://www.linkedin.com/in/lucas-affaled"
       target="_blank"
-      class="cursor-pointer hover:text-[#e4cb86]"
+      class="cursor-pointer hover:text-[#d60620]"
     >
       <i class="fa fa-linkedin"></i>
     </a>
     <a
       href="https://www.instagram.com/affaled.dev"
       target="_blank"
-      class="cursor-pointer hover:text-[#e4cb86]"
+      class="cursor-pointer hover:text-[#d60620]"
     >
       <i class="fa fa-instagram"></i>
     </a>
