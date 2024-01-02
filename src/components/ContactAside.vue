@@ -5,7 +5,7 @@ export default defineComponent({});
 
 <template>
   <aside
-    class="absolute z-50 flex h-screen w-1/12 flex-col items-end justify-end gap-6 pb-28 text-3xl"
+    class="absolute z-50 flex h-screen w-1/12 flex-col items-end justify-end gap-6 pb-28 text-4xl text-[#a7141e]"
   >
     <a
       href="https://github.com/affaled"

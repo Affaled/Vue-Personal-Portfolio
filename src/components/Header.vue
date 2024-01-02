@@ -13,16 +13,18 @@ export default defineComponent({
   <header
     class="absolute z-50 flex h-28 w-full items-center justify-center pt-12"
   >
-    <div class="flex h-full w-10/12 items-center justify-between uppercase">
+    <div
+      class="flex h-full w-10/12 items-center justify-between uppercase text-[#a7141e]"
+    >
       <div class="flex flex-col items-center font-serif text-4xl">
         <router-link
           to="/"
-          class="text-center transition duration-150 hover:scale-105"
+          class="text-center font-bold transition duration-150 hover:scale-105"
         >
           Affaled
         </router-link>
       </div>
-      <div class="flex items-center gap-6">
+      <div class="flex items-center gap-6 font-semibold">
         <nav>
           <ul class="flex gap-6">
             <li class="transition duration-150 hover:scale-110">
