@@ -9,5 +9,5 @@ html ::-webkit-scrollbar {
 }
 
 ::selection {
-  background-color: #001c0e;
+  background-color: rgba(0, 28, 14, 0.6);
 }
