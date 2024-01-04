@@ -13,37 +13,34 @@ export default defineComponent({
   <header
     class="absolute z-50 flex h-28 w-full items-center justify-center pt-12"
   >
-    <div
-      class="flex h-full w-10/12 items-center justify-between uppercase text-[#a7141e]"
-    >
-      <div class="flex flex-col items-center font-serif text-4xl">
-        <router-link
-          to="/"
-          class="text-center font-bold transition duration-150 hover:scale-105"
-        >
-          Affaled
-        </router-link>
+    <div class="flex h-full w-10/12 items-center justify-between uppercase">
+      <div
+        class="font-regular flex flex-col items-center text-center font-serif text-4xl"
+      >
+        Affaled
       </div>
-      <div class="flex items-center gap-6 font-semibold">
+      <div class="flex items-center gap-6 font-light">
         <nav>
           <ul class="flex gap-6">
             <li class="transition duration-150 hover:scale-110">
-              <router-link to="/" class="text-center">Home</router-link>
+              <router-link to="/" class="relative text-center"
+                >Home</router-link
+              >
             </li>
             <li class="transition duration-150 hover:scale-110">
-              <router-link to="/projects" class="text-center"
+              <router-link to="/projects" class="relative text-center"
                 >Projects</router-link
               >
             </li>
             <li class="transition duration-150 hover:scale-110">
-              <router-link to="/biography" class="text-center"
+              <router-link to="/biography" class="relative text-center"
                 >Biography</router-link
               >
             </li>
           </ul>
         </nav>
         <p
-          class="flex cursor-pointer items-center gap-1 text-center uppercase transition duration-150 hover:scale-105"
+          class="flex cursor-pointer items-center gap-1 text-center uppercase hover:scale-105 hover:font-semibold hover:text-[#a7141e]"
         >
           En <i class="fas fa-angle-down"></i>
         </p>
@@ -51,3 +48,20 @@ export default defineComponent({
     </div>
   </header>
 </template>
+
+<style scoped>
+a::after {
+  content: "";
+  position: absolute;
+  background-color: #a7141e;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -1px;
+  transition: width 0.3s ease-in-out;
+}
+
+a:hover::after {
+  width: 100%;
+}
+</style>
