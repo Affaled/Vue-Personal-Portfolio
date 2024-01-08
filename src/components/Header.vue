@@ -1,12 +1,6 @@
 <script>
 import { defineComponent } from "vue";
-export default defineComponent({
-  data() {
-    return {
-      LanguagesOpen: false,
-    };
-  },
-});
+export default defineComponent({});
 </script>
 
 <template>
