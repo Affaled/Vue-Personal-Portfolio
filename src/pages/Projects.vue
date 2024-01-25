@@ -1,11 +1,6 @@
 <script>
 import { defineComponent } from "vue";
-import "../data/projects.js";
-export default defineComponent({
-  components: {
-    ProjectItems,
-  },
-});
+export default defineComponent({});
 </script>
 
 <template>
