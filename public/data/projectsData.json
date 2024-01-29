@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Angular Blog",
+    "technologies": ["Angular", "Typescript", "SCSS"],
+    "description": "Developed as part of a course, this project utilizes Angular as its foundation and SCSS for styling. It is a personal blog where the creator can publish real posts. It does not have a backend, being a completely frontend project, and features a responsive design to adapt to various devices.",
+    "repository": "https://www.github.com/",
+    "url": "https://www.github.com/"
+  }
+]
