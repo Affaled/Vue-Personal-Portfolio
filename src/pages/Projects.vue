@@ -23,11 +23,21 @@ export default defineComponent({
   >
     <div class="relative flex w-10/12 flex-row items-end justify-between py-28">
       <div
+        class="absolute left-1/2 top-1/2 h-2/4 w-1/5 translate-x-[-68%] translate-y-[-42%] rounded-t-full border-2 bg-transparent"
+      ></div>
+      <div
         class="absolute left-1/2 top-1/2 h-2/4 w-1/5 translate-x-[-50%] translate-y-[-50%] rounded-t-full bg-[#a7141e]"
       ></div>
       <div
-        class="absolute left-full top-1/2 h-2/5 w-1/6 translate-x-[-120%] translate-y-[-50%] rounded-l-full rounded-t-full bg-[#a7141e] opacity-75 transition duration-150 hover:scale-105 hover:cursor-pointer"
-      ></div>
+        class="absolute left-full top-1/2 flex h-1/3 w-[14.444%] translate-x-[-160%] translate-y-[-50%] items-stretch justify-stretch opacity-75 transition duration-150 hover:scale-105 hover:cursor-pointer"
+      >
+        <div
+          class="absolute left-0 top-0 h-full w-full translate-x-[-18%] translate-y-[8%] rounded-l-full rounded-t-full border-2 bg-transparent"
+        ></div>
+        <div
+          class="z-10 h-full w-full rounded-l-full rounded-t-full bg-[#a7141e]"
+        ></div>
+      </div>
       <div class="flex h-3/4 w-fit flex-col justify-start gap-4">
         <div class="flex flex-col gap-4">
           <p
