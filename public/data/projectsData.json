@@ -6,5 +6,13 @@
     "description": "Developed as part of a course, this project utilizes Angular as its foundation and SCSS for styling. It is a personal blog where the creator can publish real posts. It does not have a backend, being a completely frontend project, and features a responsive design to adapt to various devices.",
     "repository": "https://www.github.com/",
     "url": "https://www.github.com/"
+  },
+  {
+    "id": 2,
+    "name": "teste",
+    "technologies": ["Angular", "Typescript", "SCSS"],
+    "description": "teste",
+    "repository": "https://www.github.com/",
+    "url": "https://www.github.com/"
   }
 ]

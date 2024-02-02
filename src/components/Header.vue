@@ -1,6 +1,19 @@
 <script>
 import { defineComponent } from "vue";
-export default defineComponent({});
+import projectsData from "../../public/data/projectsData.json";
+export default defineComponent({
+  data() {
+    return {
+      selectedProject: null,
+    };
+  },
+  methods: {
+    goToProject() {
+      const lastProject = projectsData[projectsData.length - 1];
+      this.$router.push({ path: `/projects/${lastProject.id}` });
+    },
+  },
+});
 </script>
 
 <template>
@@ -22,9 +35,13 @@ export default defineComponent({});
               >
             </li>
             <li class="transition duration-150 hover:scale-110">
-              <router-link to="/projects" class="relative text-center"
-                >Projects</router-link
+              <router-link
+                @click="goToProject()"
+                to="/"
+                class="relative text-center"
               >
+                Projects
+              </router-link>
             </li>
             <li class="transition duration-150 hover:scale-110">
               <router-link to="/biography" class="relative text-center"
