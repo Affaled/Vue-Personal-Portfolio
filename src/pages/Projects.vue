@@ -85,12 +85,12 @@ export default defineComponent({
             <button
               class="text-nowrap rounded-xl border-2 border-[#a7141e] bg-transparent px-4 py-2 font-normal uppercase drop-shadow-lg transition duration-150 hover:scale-110"
             >
-              Run project
+              {{ $i18n.t("projects.button.run") }}
             </button>
             <button
               class="text-nowrap rounded-xl bg-[#a7141e] px-4 py-2 font-normal uppercase drop-shadow-lg transition duration-150 hover:scale-110"
             >
-              View project
+              {{ $i18n.t("projects.button.code") }}
             </button>
           </div>
         </div>
