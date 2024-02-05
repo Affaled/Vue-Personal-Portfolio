@@ -24,15 +24,15 @@ export default defineComponent({
       <div
         class="font-regular flex flex-col items-center text-center font-serif text-4xl"
       >
-        Affaled
+        {{ $i18n.t("header.title") }}
       </div>
       <div class="flex items-center gap-6 font-light">
         <nav>
           <ul class="flex gap-6">
             <li class="transition duration-150 hover:scale-110">
-              <router-link to="/" class="relative text-center"
-                >Home</router-link
-              >
+              <router-link to="/" class="relative text-center">{{
+                $i18n.t("header.nav.home")
+              }}</router-link>
             </li>
             <li class="transition duration-150 hover:scale-110">
               <router-link
@@ -40,20 +40,20 @@ export default defineComponent({
                 to="/"
                 class="relative text-center"
               >
-                Projects
+                {{ $i18n.t("header.nav.projects") }}
               </router-link>
             </li>
             <li class="transition duration-150 hover:scale-110">
-              <router-link to="/biography" class="relative text-center"
-                >Biography</router-link
-              >
+              <router-link to="/biography" class="relative text-center">{{
+                $i18n.t("header.nav.biography")
+              }}</router-link>
             </li>
           </ul>
         </nav>
         <p
           class="flex cursor-pointer items-center gap-1 text-center uppercase hover:scale-105 hover:font-semibold hover:text-[#a7141e]"
         >
-          En <i class="fas fa-angle-down"></i>
+          {{ $i18n.locale }} <i class="fas fa-angle-down"></i>
         </p>
       </div>
     </div>
