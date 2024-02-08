@@ -7,7 +7,9 @@ export default defineComponent({
 </script>
 
 <template>
-  <header class="flex h-28 w-full items-center justify-center pt-12">
+  <header
+    class="absolute left-0 top-0 z-50 flex h-28 w-full items-center justify-center pt-12"
+  >
     <div class="flex h-full w-10/12 items-center justify-between uppercase">
       <div
         class="font-regular flex flex-col items-center text-center font-serif text-4xl"
