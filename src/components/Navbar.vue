@@ -7,6 +7,7 @@ export default defineComponent({
       selectedProject: null,
     };
   },
+
   methods: {
     goToProject() {
       const lastProject = projectsData[projectsData.length - 1];
