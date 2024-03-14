@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "path": "angular-blog",
     "name": "Angular Blog",
     "technologies": ["Angular", "Typescript", "SCSS"],
     "description": "Developed as part of a course, this project utilizes Angular as its foundation and SCSS for styling. It is a personal blog where the creator can publish real posts. It does not have a backend, being a completely frontend project, and features a responsive design to adapt to various devices.",
@@ -9,7 +10,8 @@
   },
   {
     "id": 2,
-    "name": "teste",
+    "path": "teste",
+    "name": "Teste",
     "technologies": ["Angular", "Typescript", "SCSS"],
     "description": "teste",
     "repository": "https://www.github.com/",
