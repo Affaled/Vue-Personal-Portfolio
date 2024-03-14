@@ -1,6 +1,6 @@
 <script>
 import { defineComponent } from "vue";
-import projectsData from "../../public/data/projectsData.json";
+import projectsData from "../../public/data/projectsData.js";
 export default defineComponent({
   data() {
     return {
@@ -55,3 +55,4 @@ a:hover::after {
   width: 100%;
 }
 </style>
+../../public/data/projectsData
