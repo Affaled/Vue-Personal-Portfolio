@@ -19,4 +19,18 @@ export const en = {
       },
     },
   },
+  data: {
+    projects: {
+      angularBlog: {
+        description:
+          "Developed as part of a course, this project utilizes Angular as its foundation and SCSS for styling. It is a personal blog where the creator can publish real posts. It does not have a backend, being a completely frontend project, and features a responsive design to adapt to various devices.",
+      },
+      portfolioPrototype: {
+        description: "test",
+      },
+      loginDatabase: {
+        description: "test",
+      },
+    },
+  },
 };
