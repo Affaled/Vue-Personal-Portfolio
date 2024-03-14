@@ -10,9 +10,18 @@
   },
   {
     "id": 2,
-    "path": "teste",
-    "name": "Teste",
-    "technologies": ["Angular", "Typescript", "SCSS"],
+    "path": "portfolio-prototype",
+    "name": "Portfolio Prototype",
+    "technologies": ["React", "JavaScript", "SCSS"],
+    "description": "teste",
+    "repository": "https://www.github.com/",
+    "url": "https://www.github.com/"
+  },
+  {
+    "id": 3,
+    "path": "login-database",
+    "name": "Login Database",
+    "technologies": ["PHP", "MySQL", "SCSS"],
     "description": "teste",
     "repository": "https://www.github.com/",
     "url": "https://www.github.com/"
