@@ -3,30 +3,7 @@ import { defineComponent } from "vue";
 import projectsData from "../../public/data/projectsData.json";
 import axios from "axios";
 export default defineComponent({
-  data() {
-    return {
-      projectsData: projectsData,
-      selectedProject: null,
-    };
-  },
-  created() {
-    this.selectedProject = this.$route.params.id - 1;
-  },
-  methods: {
-    goToProject() {
-      const lastProject = Number(this.$route.params.id) + 1;
-      this.$router.push({ path: `/projects/${lastProject}` });
-      if (lastProject > projectsData.length) {
-        this.$router.push({ path: `/projects/1` });
-      }
-      this.selectedProject = this.$route.params.id - 1;
-    },
-    getProjectData() {
-      axios.get("/public/data/projectsData.json").then((response) => {
-        this.projectsData = response.data;
-      });
-    },
-  },
+  
 });
 </script>
 
@@ -43,9 +20,6 @@ export default defineComponent({
       ></div>
       <div
         class="absolute left-full top-1/2 flex h-1/3 w-[14.444%] translate-x-[-160%] translate-y-[-50%] items-stretch justify-stretch opacity-75 transition duration-150 hover:scale-105 hover:cursor-pointer hover:opacity-100"
-        @click="
-          goToProject() && getProjectData() && window.$events.$emit('projects')
-        "
       >
         <div
           class="absolute left-0 top-0 h-full w-full translate-x-[-18%] translate-y-[8%] rounded-l-full rounded-t-full border-2 bg-transparent"
@@ -59,7 +33,7 @@ export default defineComponent({
           <p
             class="relative flex w-min text-nowrap font-serif text-6xl capitalize"
           >
-            {{ projectsData[selectedProject].name }}
+            teste
           </p>
           <ul class="flex gap-4 text-xl uppercase">
             <li
@@ -68,18 +42,15 @@ export default defineComponent({
               Front-End
             </li>
             <li
-              v-for="(technology, index) in projectsData[selectedProject]
-                .technologies"
-              :key="index"
               class="transition duration-150 hover:scale-105 hover:cursor-pointer"
             >
-              {{ technology }}
+              teste
             </li>
           </ul>
         </div>
         <div class="ml-36 w-1/4">
           <p class="opacity-75">
-            {{ projectsData[selectedProject].description }}
+            teste
           </p>
           <div class="mt-4 flex gap-16">
             <button
