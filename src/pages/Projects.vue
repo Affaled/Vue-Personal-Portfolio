@@ -2,9 +2,7 @@
 import { defineComponent } from "vue";
 import projectsData from "../../public/data/projectsData.json";
 import axios from "axios";
-export default defineComponent({
-  
-});
+export default defineComponent({});
 </script>
 
 <template>
@@ -49,19 +47,17 @@ export default defineComponent({
           </ul>
         </div>
         <div class="ml-36 w-1/4">
-          <p class="opacity-75">
-            teste
-          </p>
+          <p class="opacity-75">teste</p>
           <div class="mt-4 flex gap-16">
             <button
               class="text-nowrap rounded-xl border-2 border-[#a7141e] bg-transparent px-4 py-2 font-normal uppercase drop-shadow-lg transition duration-150 hover:scale-110"
             >
-              {{ $i18n.t("projects.button.run") }}
+              {{ $i18n.t("pages.projects.button.run") }}
             </button>
             <button
               class="text-nowrap rounded-xl bg-[#a7141e] px-4 py-2 font-normal uppercase drop-shadow-lg transition duration-150 hover:scale-110"
             >
-              {{ $i18n.t("projects.button.code") }}
+              {{ $i18n.t("pages.projects.button.code") }}
             </button>
           </div>
         </div>

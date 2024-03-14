@@ -7,14 +7,16 @@ export const en = {
       biography: "Biography",
     },
   },
-  home: {
-    title: "Affaled",
-    subtitle: "Front-end Developer",
-  },
-  projects: {
-    button: {
-      code: "View Project",
-      run: "Run Project",
+  pages: {
+    home: {
+      title: "Affaled",
+      subtitle: "Front-end Developer",
+    },
+    projects: {
+      button: {
+        code: "View Project",
+        run: "Run Project",
+      },
     },
   },
 };

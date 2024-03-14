@@ -7,14 +7,16 @@ export const pt = {
       biography: "Biografia",
     },
   },
-  home: {
-    title: "Affaled",
-    subtitle: "Desenvolvedor Front-end",
-  },
-  projects: {
-    button: {
-      code: "Ver Projeto",
-      run: "Abrir Projeto",
+  pages: {
+    home: {
+      title: "Affaled",
+      subtitle: "Desenvolvedor Front-end",
+    },
+    projects: {
+      button: {
+        code: "Ver Projeto",
+        run: "Abrir Projeto",
+      },
     },
   },
 };
