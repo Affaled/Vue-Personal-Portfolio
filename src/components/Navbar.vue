@@ -11,7 +11,7 @@ export default defineComponent({
   methods: {
     goToProject() {
       const lastProject = projectsData[projectsData.length - 1];
-      this.$router.push({ path: `/projects/${lastProject.id}` });
+      this.$router.push({ path: `/projects/${lastProject.path}` });
     },
   },
 });
