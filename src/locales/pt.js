@@ -11,4 +11,10 @@ export const pt = {
     title: "Affaled",
     subtitle: "Desenvolvedor Front-end",
   },
+  projects: {
+    button: {
+      code: "Ver Projeto",
+      run: "Abrir Projeto",
+    },
+  },
 };
