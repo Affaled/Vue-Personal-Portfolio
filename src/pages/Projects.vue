@@ -1,8 +1,13 @@
 <script>
 import { defineComponent } from "vue";
 import projectsData from "../../public/data/projectsData.js";
-import axios from "axios";
-export default defineComponent({});
+export default defineComponent({
+  data() {
+    return {
+      projectsData,
+    };
+  },
+});
 </script>
 
 <template>
