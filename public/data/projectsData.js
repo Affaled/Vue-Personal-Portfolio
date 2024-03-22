@@ -11,7 +11,8 @@ const projectsData = [
   {
     id: 1,
     path: "angular-blog",
-    name: "Angular Blog",
+    title: "Angular Blog",
+    type: "Front-end",
     technologies: ["Angular", "Typescript", "SCSS"],
     description: findText("angularBlog"),
     repository: "https://www.github.com/",
@@ -20,7 +21,8 @@ const projectsData = [
   {
     id: 2,
     path: "portfolio-prototype",
-    name: "Portfolio Prototype",
+    title: "Portfolio Prototype",
+    type: "Front-end",
     technologies: ["React", "JavaScript", "SCSS"],
     description: "teste",
     repository: "https://www.github.com/",
@@ -29,7 +31,8 @@ const projectsData = [
   {
     id: 3,
     path: "login-database",
-    name: "Login Database",
+    title: "Login Database",
+    type: "full-stack",
     technologies: ["PHP", "MySQL", "SCSS"],
     description: "teste",
     repository: "https://www.github.com/",

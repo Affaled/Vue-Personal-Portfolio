@@ -36,18 +36,19 @@ export default defineComponent({
           <p
             class="relative flex w-min text-nowrap font-serif text-6xl capitalize"
           >
-            teste
+            {{ projectsData[0].title }}
           </p>
           <ul class="flex gap-4 text-xl uppercase">
             <li
               class="font-semibold text-[#a7141e] transition duration-150 hover:scale-105 hover:cursor-pointer"
             >
-              Front-End
+              {{ projectsData[0].type }}
             </li>
             <li
               class="transition duration-150 hover:scale-105 hover:cursor-pointer"
+              v-for="technology in projectsData[0].technologies"
             >
-              teste
+              {{ technology }}
             </li>
           </ul>
         </div>
